@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a software generalist and I specialize in Machine learning. I want to build products and systems that can shape the future of mankind in a positive manner. Technologies that are of primary interest to me or those that enable wealth creation and sustainable transport.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+	[pradeep@callindra.com] (mailto:pradeep@callindra.com)
