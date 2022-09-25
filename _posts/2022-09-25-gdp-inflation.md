@@ -3,13 +3,14 @@ layout: post
 title: GDP and Inflation
 ---
 
+
 ### Understanding GDP
 
 On Friday, I was lucky enough to listen to Prof.Prasanna Tantri from ISB. While I didn't expect a great deal of learning, given the predisposition us technologists have against economics, business and the business school as such, I had to swallow my thoughts and pride and listen to this man for 3 hours without even looking at my watch.
 
 I am going to distill some of those learnings here and I hope I haven't lost a great deal of content in the last couple of days.
 
-GDP - Let's try to understand GDP, which is defined as Gross Domestic Product. If we break this down, gross means total, domestic is obvious confined to a geography, and product is well, just the output of that geography.
+Let's try to understand GDP, which is defined as Gross Domestic Product. If we break this down, gross means total, domestic is obvious confined to a geography, and product is well, just the output of that geography.
 
 Where it gets interesting is, GDP is not just products, it includes services. So to summarize
 
@@ -33,20 +34,29 @@ Both these reports are correct and we should just pay attention to the details w
 Now, how to calculate GDP. Conusmption is obviously a contributing factor.
 
 So we have
-``` GDP = Consumption ```
+
+```python 
+GDP = Consumption 
+```
 
 That's just not it. You need capital to produce and also capital to consume. Let's call this investment. So now we have
-``` GDP = consumption + investment ```
+```python
+ GDP = consumption + investment 
+ ```
 
 Well then there is government expenditure. Salaries for government staff. Interestingly, subsidies don't come under government expenditure because the subsidy
 doesn't produce any output. It's just taking someone's produce and handing it off to someone else, well in very simplistic terms. 
 
 Then there is exports which you deduct and add an additional error correction from the government side. That gives
 
-``` GDP = consumption + investment + Govt Expenditure - exports + error"```
+```python
+ GDP = consumption + investment + Govt Expenditure - exports + error
+```
 
 The real breakdown is something like this
-``` GDP(100%) = 59%(C) + 30%(I) + 11%(GE) - 5%(E) + 5%(Error)```
+```python
+ GDP(100%) = 59%(C) + 30%(I) + 11%(GE) - 5%(E) + 5%(Error)
+ ```
 
 What's interesting is that we save 30% of what we produce. This is super important because this investment serves the growth next year. Growth comes from 2 aspects
 * Investment
@@ -76,11 +86,16 @@ Inflation is the measure of rate of increase of goods and services, mostly goods
 Rate of increase means that you need a baseline rate to measure the increase against. The baseline is of course chosen by the country officials Fed, govt etc. Some countries like India choose a fixed baseline. For us it is the FY 2011-12, as of now. US has a different baseline - a moving average based baseline. So they penalize older years as compared to newer ones.
 
 What matters is that there be a baseline and there be a correct baseline. Why can't we have a baseline in India that is at 1947 ? Any guesses ? Well, most of the goods we use today were not present in 1947 and most of the goods that were prevalent in 1947 are obsolete now. I believe the correct measure is
-``` current year - 7```. Well for now it is what it is.
+```python
+ current year - 7
+ ```
+Well for now it is what it is.
 
 So once you have a baseline, you need some way of arriving at one number for all goods. This is super tricky to obtain. So they resort to what is know as common basket of goods and create an index based on that.
 
-``` baseline index = Normalized(basket of goods) = 100 ```
+```python
+ baseline index = Normalized(basket of goods) = 100 
+ ```
 
 You then use this scale to compare against current value of the index. Then depending on whether you are reporting month on month inflation, year or year or whatever you use the appropriate values w.r.t this index.
 
@@ -113,14 +128,16 @@ Depending on whether x is greater or lower than the current rate the following w
 
 The traders at central banks immediately hit the market on the trading instrument. Imagine the fire sale scene in Margin Call.  
 
-``` if new target > current rate:
-	    Fed traders will Buy bonds at the target rate
+```python
+ if new target > current rate:
+	  fed traders will Buy bonds at the target rate
 ```
 
 It's that simple. But who the hell will sell the bonds - Everyone and their mother. Banks, insurance companies, mutual funds, debt funds everyone.
 
-``` if new target < current rate:
-       Fed traders will start unloading bonds 
+```python
+ if new target < current rate:
+    fed traders will start unloading bonds 
 ```
 
 Who will buy - again the same folks who sold when Fed was buying.
@@ -132,7 +149,8 @@ Depends on who you are asking. For the citizens, it's terrible. For the governme
 
 For simplicity sake, 
 
-``` inflation = 5%
+```python
+	inflation = 5%
 	salary = $1000
 	expected hike = 5%
 	new salary = $1050.
