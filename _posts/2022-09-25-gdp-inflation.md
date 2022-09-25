@@ -167,12 +167,12 @@ Inflation and GDP are very much correlated since nominal GDP is a function of in
 
 #### Conclusion
 
-I hope I was able to distill this without forgetting much. I personally became more bullish on India after listening to this lecture, simply because we have 3 ingredients for
+Even though I read quite a lot on stocks, bonds, interest rates etc, I never paid attention to the fundamentals. In that regard, this was an eye opening session.I personally became more bullish on India after listening to this lecture, simply because we have 3 ingredients for
 growth that no other country has
 
-* A growing working population - 500M people under the age of 27
-* Entrepreneurial spirit - (This is subjective, but it's there nonetheless)
-* The 30% savings investment rate
+* Rising productivity due to a growing working population - 500M people under the age of 27. 
+* Entrepreneurial spirit - (This is subjective, but it's there nonetheless).
+* The 30% savings investment rate in the GDP equation fueling consistent growth year over year.
 
 The fourth one which is also probably going to work in our favour
 
