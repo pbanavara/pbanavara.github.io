@@ -128,7 +128,7 @@ So where does that leave me. Here are my current thoughts.
 
 * Despite all these apps, nearly 75% of adults don't workout
   consistently. I am yet to find data for 4-5 year time period. Per
-  [CDC}(https://www.cdc.gov/nchs/products/databriefs/db443.htm#:~:text=Among%20all%20adults%20aged%2018,of%20activity%20(Figure%201).)
+  [CDC](https://www.cdc.gov/nchs/products/databriefs/db443.htm#:~:text=Among%20all%20adults%20aged%2018,of%20activity%20(Figure%201).)
   only 24% of the adults meet their fitness criteria which is about 20
   minutes of moderate exercise every day or 150 mins per week.
 
