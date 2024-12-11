@@ -1,4 +1,4 @@
-### My tyrst with AI Code Editors
+### My journey with AI Code Editors
 
 I got introduced to cursor at a hackathon in October. The ease of development was obvious and I jumped on the bandwagon. I tried cursor for a few days and happened to attend another talk hosted by [Chroma](https://www.trychroma.com//) where the CTO of Sourcegraph Beyang gave a talk. I wasn't new to Sourcegraph and quickly discovered that they had a version of their AI code editor as well. It was far cheaper than Cursor at $9 with almost the same features, afterall both rely on Claude Sonnet. 
 
