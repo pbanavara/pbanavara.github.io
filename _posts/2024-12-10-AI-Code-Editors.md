@@ -13,7 +13,7 @@ I was not only able to validate my design but also could get code snippets to qu
 My usage naturally increased and by November I was building my ideas fully on Cody. As with all tools, it took me a while to get to the aspects of Cody that were not what I expected. I think, the tool sets up an expectation in your mind that it can solve anything under the sun. The initial euphoria sort of led me in this direction.
 
 The first gotcha was in deploying my application. It's a FastAPI backend app powered by websockets for real time communication. I followed the instructions provided by Cody and deployed the app.
-![image](./2024-12-12-Code-Editors.png)
+
 
 I'd then run into this error when I ran `wscat`
 ```
@@ -21,18 +21,18 @@ I'd then run into this error when I ran `wscat`
 WARNING: Invalid HTTP request received.
 ```
 And I'd ask for recommendations and Cody would essentially go into the same loop of checking for logging, rebuilding and re-deploying.
+![Imgur](https://i.imgur.com/gJHtFOm.png)
 
 This went on for about 2-3 hours. I was reluctant to Google and was pushing Cody really hard to see if it can figure out what was wrong.
 
 Then I askked for a couple of alternatives and Cody was super helpful here.
-![image](./2024-12-10-app-engine.png)
-
+![Imgur](https://i.imgur.com/32kx7l9.png)
 Then again if you examine closely this app.yaml is incorrect. I found this out later. I deployed on Google app engine and the first error I saw was
 ```
 ERROR: (gcloud.app.deploy) INVALID_ARGUMENT: Error(s) encountered validating runtime. Your runtime version for python39 is past End of Support. 
 ```
 Cody recommended I upgrade to the Python 311. I countered and asked shouldn't it be 312 and look at Cody's response.
-![image](./2024-12-10-appengine-error.png)
+![Imgur](https://i.imgur.com/iAw2Y20.png)
 
 Wow, the conviction was mind blowing. But this turned out to be completely wrong. The correct app engine config should have
 ```
@@ -46,7 +46,7 @@ So at this time, I realized I am relying too much on Cody and ditched the App En
 
 Went back to Google cloud run and checked Google for the 502 error message I was getting. Apparently you have to disable end to end http2 in your deployment.
 
-![image](./2024-12-10-google-error.png)
+![image](https://i.imgur.com/czd49tx.png)
  
  It took me nearly 2 hours to debug this. Now I am no debugging expert and I have lost my 20s style of aggressive debugging but this was bonkers. Google cloud has to win the award for the most confusing error messages ever. Their log messages are also so misleading for instance
  ```
