@@ -2,7 +2,7 @@
 layout: page
 permalink: /resume/
 ---
-## Pradeep Banavara
+
 📧 **Email:** [pbanavara@gmail.com](mailto:pbanavara@gmail.com)  
 📞 **Phone:** 510-695-5628  
 🔗 [LinkedIn](https://linkedin.com/in/pbanavara) | [GitHub](https://github.com/pbanavara)  
